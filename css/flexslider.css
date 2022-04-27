@@ -1,0 +1,75 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+ 
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.slide{display:none;}
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a {width:73px; height:70px; position:absolute; left:0; top:0; margin-top:-30px; background:url(../images/left-arrow.png) no-repeat 0 0;-webkit-transition:none; transition:none; text-indent:-9999px;-moz-transition:none}
+.flex-direction-nav .flex-next ,.flex-direction-nav .flex-prev{width: 73px;height: 70px;margin-top:-34px;background:url(../images/slide-left-btn.png) no-repeat 0 0;cursor:pointer;/*background:url(../images/right-arrow.png) no-repeat 0 0;left:auto;right:-30px;*/}
+.flex-direction-nav .flex-next {left: auto;right: 0;background:url(../images/slide-right-btn.png) no-repeat 0 0;}
+.flex-direction-nav a:hover {/* background-position:0 -130px;*/}
+
+/* add new */
+.flex-direction-nav {
+	width: 100%;
+	top: 50%;
+	left:0;
+	position: absolute;
+	display:block;
+}
+
+.flex-direction-nav .flex-disabled { cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {padding:0; margin:0 0 0 -30px;width:60px;overflow:hidden; position:absolute; bottom:10px; left:50%;}
+.flex-control-nav li {float:left;display:block;margin:0 3px;width:8px;height:8px; font-size:6px;line-height:6px;cursor:pointer;}
+.flex-control-paging li a {float:left;width:8px; height: 8px; display: block;background: #000000; text-indent:-9999px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px; cursor:pointer}
+.flex-control-paging li a:hover { background: #ffffff}
+.flex-control-paging li a.flex-active {background: #ffffff}
+/* add new */
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {opacity: 1;}
+  .flex-direction-nav .flex-next {opacity: 1;}
+}
+
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+

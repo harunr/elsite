@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>GreenBox :: About</title>
+
+<link type="text/css" rel="stylesheet" href="css/fonts.css">
+<link type="text/css" rel="stylesheet" href="css/slippry.css">
+<link type="text/css" rel="stylesheet" href="css/nav-style.css">
+<link type="text/css" rel="stylesheet" href="css/flexslider.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/responsive.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/headroom.js"></script>
+<script type="text/javascript" src="scripts/jquery.headroom.js"></script>
+<script type="text/javascript" src="scripts/slippry.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider.js"></script>
+<script type="text/javascript" src="scripts/common-scripts.js"></script> 
+
+<script type="text/javascript">
+    ;(function($){
+        $(function(){
+
+            $(window).scroll(function() { 
+                if($(window).width() > 767 ){
+                    // The varriables 
+                    var $titleDiv = $('#home-slider li h1');
+                   // var $logo = $('#logo');
+                    
+
+                    //Get scroll position of window 
+                    var windowScroll = $(this).scrollTop(); 
+
+                    //Slow scroll of social div and fade it out 
+                    $titleDiv.css({ 
+                        'margin-top' : - (windowScroll / 3) + "px", 
+                        'opacity' : 1 - (windowScroll / 550) 
+                    }); 
+
+
+                } // End if function
+            });
+
+        });
+
+    })(jQuery)
+</script>
+</head>
+<body>
+    <!-- Common header-->
+    <div class="top-header transparent nav-bg" id="header">
+        <div class="top-header-wrap">
+            <div class="main-logo">
+                <div class="logo-wrap" id="logo">
+                    <a href="index.html"><img src="images/greenbox_logo.png" alt="Logo"></a>
+                    <a href="index.html"><img src="images/greenbox_logo.png" alt="Logo"></a>
+                </div>
+            </div>
+            <div class="nav" id="nav">
+                <div class="navigation-button" id="nav-show-button">
+                    <strong>Menu</strong>
+                    <div class="nav-icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="navigation-button" id="nav-hide-button">
+                    <strong>Menu</strong>
+                    <div class="nav-close">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // End Common header-->
+    
+    <!-- About page -->
+    <div class="about-page">
+        <div class="about-greenbox-section">
+            <div class="bg-gray" style="background:url(images/About_top_image.png) no-repeat center top; background-size: cover;"></div>
+            <div class="commo-wrap clear">
+                <div class="emily-content-wrap">
+                    <div class="mobi-image-wrap"><img src="images/About_top_image.png" alt="Image"></div>
+                    <div class="emily-details">
+                        <h2>Hi, we're Greenbox.</h2>
+                        <p>Greenbox was born many years ago in a small green gouse in a faraway tropical climatte, during a gap year after studies. Beign a predominantly remote set up in the early years, Greenbox eventually set down some preoper roots in Cape Town, South Africa in 2009.</p>
+                        <p>Now, 8 years later Greenbox has steadily grown into a well established web design agency in Cape Town.</p>
+                        <p>Being a smaller team, we can really offer a hands on personalized experience to elevate your brand, and provide you with a fresh web presence which is crucial in today's ever changing technology climate.</p>
+                        <blockquote>"We'r All about innovation. In this fast-paced industry where technology reigns and evolves with every passing second, it's imperative that your brand remains relevant, and immune to invisibility"</blockquote>
+                        <p>Our team has experience and expertise to handle any web related project, from boutique graphic design, custom Wordpress development to full scale Drupal application development.</p>
+                        <div class="go-another-were-link">
+                            <a href="#team-details">
+                                <div class="go-down-arrow">
+                                    <img src="images/green_arrow.png" alt="">
+                                </div> 
+                                <span>Meet the Team</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-details-section" id="team-details">
+            <div class="common-wrap clear">
+                <div class="team-details-row">
+                    <div class="left-column">
+                        <div class="team-member-wrap">
+                            <h2>Simon Carter</h2>
+                            <em>Project manager / wordpress developer</em>
+                            <p>Since the inception of Greenbox Designs, Simon has developed and managed Wordpress website usign multiple frameworks and languages including XHTML, CSS, PHP and JavaScript. His love for solving both functional and creative challenges is evident in each and every end product, and clients continually give him praise for his good nature, consistent professionalism and admirable work ethic. Simon loves to travel, and when he's not working, you;re bound to find this water baby bolwing off osme steam in the ocean.</p>
+                        </div>
+                    </div> 
+                    <div class="right-column">
+                        <div class="team-member-wrap">
+                            <h2>Emily Lemmon</h2>
+                            <em>Designer</em>
+                            <p>Emily is a passionate creative. Her fresh approach to design and incredible attention to detail always results in her work being both visually stunning and suitable in terms of her clients' needs. In the last year, she has brought the Greenbox dream to life and designed over 50 websites for a large spectrum of her clients across the globe. With a Diploma in digital design from Concept Interactive in Cape Town, and a knack for quick, creative concepts, she is an extremely valuable asset to the company. Emily is passionate about travel and yoga, and likes to spend her free time in the mountains.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-details-row">
+                    <div class="left-column">
+                        <div class="team-member-wrap">
+                            <h2>Alex Kirsten</h2>
+                            <em>PHP &amp; Drupal Developer</em>
+                            <p>Alex is an exceptionally talented and dedicated developer who has nearly 9 years of programming experience. Armed with a BSC (Hons) in information Systems and a diploma in project management, Alex has helped to grow the Greenbpx development skill set into that of an enterprose-teady digital agency. When Alex ist't knee deep in code or contributing back to the open source Drupal community, he can be found on a football pitch or immersed in some (often obscure) Soundcloud streams.</p>
+                        </div> 
+                    </div>
+                    <div class="right-column">
+                        <div class="team-member-wrap">
+                            <h2>Jaime Dos Santos</h2>
+                            <em>Wordpress Developer</em>
+                            <p>Here at Greenbox, he assists with Wordpress projects and front end coding. Since joining, he has expeditiously improved his skill set already and proven his dedication to our team. With a keen interest in motion graphics and game development, and a sponge when it comes to learning all things new, he's definitely a one to watch. You can also ask him anything about Anime or Arnold Schwarzenegger.</p>
+                        </div> 
+                    </div> 
+                </div>
+                <div class="team-details-row">
+                    <div class="left-column">
+                        <div class="team-member-wrap">
+                            <h2>Dave Strauss</h2>
+                            <em>Designer</em>
+                            <p>Alex is an exceptionally talented and dedicated developer who has nearly 9 years of programming experience. Armed with a BSC (Hons) in information Systems and a diploma in project management, Alex has helped to grow the Greenbox development skill set into that of an enterprise-ready digital agency. When Alex isn't Knee deep in conde or contributing back to the open source Drupal community, he can be found on a football pitch or immersed in some (often obscure) Soundcloud streams.</p>
+                        </div> 
+                    </div>
+                    <div class="right-column">
+                        <div class="team-member-wrap">
+                            <h2>Kenny Irvine</h2>
+                            <em>Developer</em>
+                            <p>Alex is an exceptionally talented and dedicate developer who has nearly 9 years of programmming experience. Armed with a BSC (Hons) in Information Systems and a diploma in project management, Alex has helped to grow the Greenbox development skill set into that of an enterprise-ready digital agency. When Alex isn't knee deep in code or contributing back to the open source Drupal community, he can be found on a football pitch or immersed in some (often obscure) Soundcloud streams.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="our-global-footprint-section">
+            <div class="common-wrap clear">
+                <div class="lead-text">
+                    <h1>Our Global Footprint</h1>
+                    <h5>We're inspired by travel, and always invigorated by the excitement of a foreign envigorated by the excitement of a foregin environment.</h5>
+                    <p>Although our headquarters are now situated in Cape Town with a permanent team on deck, traveling and working remotely for a few months of the year is still a very important part of our ethos. During this time, we stay inspired by working form established co-working from estabilshed co-working hubs like Hubud in Bali and Agora in Berlin. Working abroad helps us to keep a close eye on how the rest of the world operates, which brings invalualble insights to the table not only for our South African clients, but also our international clients from Hong Kong, United Kingdom, Switzerland, Australia and Dubi,</p>
+                </div>
+                <div class="client-section">
+                    <div class="client-wrap">
+                        <div class="client-logo">
+                            <img src="images/CAMPUS-logocampus.png" alt="">
+                        </div>
+                        <span>LONDON</span>
+                    </div>
+                    <div class="client-wrap">
+                        <div class="client-logo">
+                            <img src="images/logo+hubud.png" alt="">
+                        </div>
+                        <span>BALI</span>
+                    </div>
+                    <div class="client-wrap">
+                        <div class="client-logo">
+                            <img src="images/Agora_Berlin.png" alt="">
+                        </div>
+                        <span>BERLIN</span>
+                    </div>
+                    <div class="client-wrap">
+                        <div class="client-logo">
+                            <img src="images/logoc.png" alt="">
+                        </div>
+                        <span>PORTUGAL</span>
+                    </div>
+                    <div class="client-wrap">
+                        <div class="client-logo">
+                            <img src="images/logotth.png" alt="">
+                        </div>
+                        <span>AMSTERDAM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- // End about page-->
+    
+    <!-- modal-menu -->
+    <div id="modal-menu" class="main-nav">
+        <div class="modal-menu-content clear navigation" id="menu-main">
+            <div class="modal-menu-inner">
+                <div id="main-nav">
+                    <ul>
+                        <li><a href="work.html">Our Work</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">What we offer</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info-wrap">
+                    <div class="contact-info">
+                        <span>Contact Us</span>
+                        <div>Cape Town: <a href="tel:02146430065">02146430065</a></div>
+                        <div>London: <a href="tel:+44 998766554">+44 998766554</a></div>
+                    </div>
+                    <div class="contact-info">
+                        <span>Email Us</span>
+                        <div><a href="mailto:info@greenboxdesigns.com">info@greenboxdesigns.com</a></div>
+                    </div>
+                    <div class="contact-info">
+                        <span>Our Address</span>
+                        <div>63 Shortmarket street</div>
+                        <div>Cape Town</div>
+                        <div>8001</div>
+                        <div>South Africa</div>
+                    </div>
+                </div>
+                <!--  <div class="modal-footer-link emili-link">
+<a href="mailto:hello@emilylemmon.com"><div class="message-icon"><img src="images/message-icon.png" alt=""></div><span>hello@emilylemmon.com </span></a>
+</div>-->
+            </div>
+        </div>
+    </div>
+    <!-- // modal-menu -->
+</body>	
+</html>

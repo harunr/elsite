@@ -1,0 +1,272 @@
+/*		Mobile Layout:320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width:767px) {
+    body{font-size:16px;}    
+    
+    .logo-wrap {width:50px;margin-top:5px;margin-left:10px;}
+    .navigation-button {margin-right:25px;margin-top:28px;}
+    div.show {transform:translateY(-60px);-webkit-transform:translateY(-60px);}
+    #main-nav li a{font-size:20px;line-height:30px;}    
+    .hero-content h1{font-size:30px;}
+    .lead-text p{padding:0}
+    .lead-text h2{font-size:24px;}
+    #wandering-souk-page .lead-text::before {margin-left:-180px;top:40px;width:360px;}
+    .gallary-item{width:100%;margin:10px 0;height:auto;}
+    .footer-section{min-height:125px;}
+    .footer{font-size:16px;padding:0 20px;margin-top:45px;}
+    #homeHero-section{padding-top:0;height:300px;}
+    .home-hero-img{height:300px;position:relative;}
+    .hero-content-wrap{position:absolute;top:0;}
+    .flex-control-nav{bottom:30px;}    
+    .mobi-header{position:relative;}
+    .header-section{z-index:99}
+    .main-nav ul li ul{display:none;}
+    .fixedTop .mobi-header{display:block;}
+    .flex-control-nav{margin:0 0 0 -55px;}
+    #home-slider .slides, #home-slider .slides li{height:300px;}
+    .flex-control-nav li{margin:0 7px;}
+    #modal-menu{overflow-y:scroll;}
+    #scroll-header{background:#1c1b1b;}
+    .mobi-nav-home{top:17px;right:30px;}
+    #main-nav{padding-top:50px;}
+    #main-nav li a{line-height:40px;}
+    #modal-close-wrap{top:17px;}
+    .modal-social-content{padding-top:25px;}
+    #home-page .hero-content h1{font-size:24px;}
+    .hero-content p{font-size:18px;}
+    #homeHero-section, .home-hero-img, #home-slider .slides, #home-slider .slides li{height:425px;}
+    #home-slider .view-work-btn{top:85%;}
+    .mobile-nav-home{margin-top:25px;margin-right:10px;}
+    .top-header-wrap{max-width:100%;}
+    #main-nav {padding-top:115px;}
+    .overlay-text{margin-left:10px;top:90px;}
+    .overlay-text h1{font-size:24px;}
+    .work-item{width:100%;}
+    #modal-close-wrap{margin-top:35px;margin-right:10px;}
+    .emily-content-wrap{width:100%;}
+    .bg-gray{display:none;}
+    .testimonial-section-wrap{padding:50px 0 30px;}
+    .testimonial-figure{float:none;margin:0 auto;}
+    .testimonial-content{width:100%;text-align:center;margin-top:30px;padding:0 15px;}
+    .testimonial-content blockquote{padding:0 30px;margin-top:15px;}    
+    #home-page.limitless-world-page .hero-content-wrap{padding:0 15px;margin-top:80px;max-width:100%;width:100%;}
+    #home-page.limitless-world-page .hero-content h5{letter-spacing:.5px;line-height:28px;}
+    #home-page.limitless-world-page .hero-content h1{line-height:35px;}
+    #home-page.limitless-world-page .hero-content p{line-height:18px;margin-top:10px;}
+    #home-page.limitless-world-page #home-slider .view-work-btn{left:30%;}
+    .footer-navigation div a{max-width:50px;}
+    .footer-navigation div a img{float:left;width:100%;}
+    .footer-navigation{width:65%;}
+    .footer-navigation div a{float:left;width:15px;position:relative;top:27%;}
+    .footer-navigation div{width:65px;padding:20px;}
+    .footer-navigation div:first-child a{width:25px;}
+    #home-page.limitless-world-page #home-slider .view-work-btn{top:70%;}
+    .emily-details{padding:20px 0 40px;max-width:100%;width:100%;}
+    .download-lnk span{width:245px;}
+    .close-outer{background:#f3f3f3;width:100%;position:fixed;z-index:1000;height:54px;left:0;top:0;}
+    .footer-social-content-left{float:none;clear:both;width:100%;text-align:center;} 
+    .footer-social-content-right{float:none;clear:both;width:100%;text-align:center;padding-top:15px;}
+    .work-item .overlay-wrap:hover .overlay-text{margin-left:0px;padding:0 15px;}
+    .limitless-world-page .hero-content-inner .hero-content{max-width:100%;padding:0 15px;margin-top:140px !important;}
+    .limitless-world-page .hero-content-inner .hero-content h1{font-size:28px;line-height:42px}
+    .limitless-world-page .hero-content-inner .hero-content h5{font-size:20px;line-height:26px;}
+    .limitless-world-page .hero-content-inner .hero-content p{font-size:12px;margin-top:0px;line-height:18px;}
+    .limitless-world-page .hero-content-inner .hero-content span{font-size:16px;margin-top:10px;line-height:18px;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 80px;}
+    .template-section .common-wrap{max-width:100%;margin:35px auto 10px;}
+    .carousel-wrap{max-width:100%;margin-top:0; padding:35px 0 65px;}
+    .template-section-2 .common-wrap{max-width:100%;margin:10px auto 0;}
+    .view-work-btn{bottom:35px;}
+    .footer-navigation div{padding:10px 20px;}   
+    .footer-navigation div{height:auto;padding:10px 20px;}
+    footer .footer-logo{padding:0;float:left;width:40px;position:relative;margin:7px 0 0 10px;}
+    footer .footer-logo a{position:relative;width:40px;float:left;}
+    footer .footer-logo a img{float:left;margin:0;width:100%;}
+    
+    .mobi-image-wrap{display:block;}
+    .emily-details h2{font-size:28px;line-height:36px;}
+    .transparent.top-header .top-header-wrap{background:#565052;height:100%;}
+    .transparent.top-header .top-header-wrap .logo-wrap a:nth-child(2){display: block;}
+    .main-wrap-imitless-page{float: left;width: 100%;position: relative;}
+    about-page,.work-page{overflow-x: hidden;padding-top: 90px;}
+    .about-page{padding-top: 50px;}
+
+    .hero-content{ transform:translate(0%, 0%);-webkit-transform:translate(0%, 0%);-moz-transform:translate(0%, 0%) }
+    .hero-content h1{ line-height: 42px; }
+    .hero-content p{ line-height: 26px; }
+
+    .overlay-text h3{ line-height: 32px; }
+    .overlay-text h3{ font-size: 18px; line-height: 24px; }
+
+    .home-work{ padding-top: 30px; }
+    .logo-wrap{margin-top: 0; margin-left: 0;}
+    .top-header-wrap{padding: 0}
+    #header .nav-control{display: none;}
+    #header{height: 65px;}
+    .logo-wrap a:last-child{width: 130px;}
+    #main-nav{float: left; width: 100%; padding-right: 0; padding-top: 100px; }
+    #modal-menu{padding-bottom: 80px;}
+    #main-nav ul{text-align: center;}
+    .contact-info-wrap{float: left; width: 100%; padding-left: 0; text-align: center; margin-top: 20px;}
+    .contact-info{margin-top: 25px;}
+    .navigation-button{margin-top: 15px;}
+    .about-greenbox-section{height: 100%;}
+    .emily-details blockquote{width: 100%; margin: 20px 0 25px 25px; }
+    .team-details-section{height: 100%; margin-top: 35px;}
+    .team-details-row{margin-top: 20px;}
+    .left-column, .right-column{width: 100%;}
+    .left-column{padding-right: 0;}
+    .right-column{padding-left: 0; margin-top: 35px;}
+    .emily-details h2{font-size: 24px;}
+    .team-member-wrap h2{font-size: 22px;}
+    .team-details-section{padding-bottom: 30px;}
+    .our-global-footprint-section{height: 100%; padding-bottom: 50px;}
+    .our-global-footprint-section .lead-text{margin-top: 60px;}
+    .our-global-footprint-section .lead-text h1{font-size: 24px}
+    .our-global-footprint-section .lead-text h5{font-size: 20px}
+    .client-section{margin-top: 20px;}
+    .client-wrap{width: 100%; margin: 50px 0 0;}
+    
+    .client-wrap:nth-child(2) .client-logo,
+    .client-wrap:nth-child(3) .client-logo, 
+    .client-wrap:nth-child(4) .client-logo, 
+    .client-wrap:nth-child(5) .client-logo{margin-bottom: 25px;}
+    #main-nav{border-right: 0px}
+    .modal-menu-inner{padding-bottom: 50px;}
+}
+
+
+/*		Wide Mobile Layout:480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .footer-section{min-height:140px;}
+    .footer{margin-top:60px;}
+    .gallary-item{width:48%;margin:2%;}
+    .footer-social-content-left{float:left;clear:none;width:auto;text-align:left;} 
+    .footer-social-content-right{float:right;clear:none;width:auto;text-align:left;padding-top:0px;}
+    /*.top-header-wrap {max-width:100%;padding:0 10px;}*/
+    .modal-outer-wrap {clear:both;max-width:100%;padding:0 10px;}
+    #home-page.limitless-world-page #home-slider .view-work-btn{left:36%;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 120px;}
+    .carousel-wrap{max-width:100%;margin-top:0; padding:35px 0 65px;}
+    .template-section-2 .common-wrap{max-width:100%;margin:10px auto 0;}
+    #homeHero-section, .home-hero-img, #home-slider .slides, #home-slider .slides li{height:400px;}
+    .view-work-btn{bottom:70px;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 60px;}
+}
+
+
+/*		Tablet Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+    h1{font-size:38px;}
+    h2{font-size:30px;}
+    .logo-wrap{margin-top:30px;}
+    .footer-section{min-height:350px;}
+    .footer{margin-top:170px;}
+    .logo-wrap img{ float:left;margin-top:0px;width:auto;}
+    .logo-wrap{width:58px;}
+    .main-nav ul li a{width:100%;}
+    .flex-control-nav li{margin:0 7px;}
+    .flex-control-nav{margin:0 0 0 -55px;}
+    #home-page .hero-content h1{font-size:42px;}
+    #home-page.limitless-world-page .hero-content-wrap{padding:0 15px;}
+    .slider-wrap{padding:135px 15px 205px}
+    .top-header-wrap {max-width:100%;padding:0 10px;}
+    .modal-outer-wrap {clear:both;max-width:100%;padding:0 10px;}
+    .modal-menu-content {height:70%;max-width:450px;position:relative;text-align:center;width:100%;}
+    #modal-close-wrap {margin-top:-27px;width:auto;}
+    #home-page .hero-content h1 {font-size:56px;}
+    #home-page.limitless-world-page .hero-content-wrap{padding:0 15px;}
+    .hero-content h1{font-size:44px;line-height:50px;}
+    .testimonial-section-wrap .common-wrap{padding:0 15px;}
+    .testimonial-section-wrap{padding:50px 0;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 150px;}
+    .logo-wrap {width:80px;margin-top:10px;margin-left:10px;}
+    .logo-wrap a img{float:left;margin:0;width:100%;}
+    .navigation-button {margin-right:25px;margin-top:28px;}
+    div.show {transform:translateY(90px);-webkit-transform:translateY(90px);}
+    #main-nav li a{font-size:25px;line-height:40px;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 150px;}
+    .template-section .common-wrap{max-width:100%;margin:45px auto 10px;}
+    .emily-details{max-width:100%;padding:100px 15px 0 0;}
+    
+    .nav{width: 32%}
+    .nav-control{width: 28.5%;}
+    .logo-wrap{margin-top: 0px; margin-left: 0;}
+    .top-header-wrap{padding: 0;}
+    .about-greenbox-section, .team-details-section, .our-global-footprint-section{height: 100%;}
+    .our-global-footprint-section{padding-bottom: 50px;}
+    .team-details-section{margin-top: 50px;}
+    .our-global-footprint-section .lead-text{margin-top: 120px;}
+    .client-wrap{}
+    .client-logo{ float: left; width: 100%; margin-bottom: 15px;}
+    .client-logo img{float: left; width: 100%;}
+    .client-wrap:nth-child(2) .client-logo{margin-bottom: 30px}
+    .client-wrap:nth-child(4) .client-logo{margin-bottom: 40px;}
+    .client-wrap:nth-child(5) .client-logo{margin-bottom: 25px;}
+
+    .left-column{ padding-right: 20px }
+    .right-column{ padding-left: 0px; }
+    
+
+}
+
+
+/*		Tablet Layout:1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .footer-section{min-height:345px}
+    .footer{margin-top:170px;}
+    .logo-wrap img{margin-left:20px;}
+    .flex-control-nav li{margin:0 7px;}
+    .flex-control-nav{margin:0 0 0 -55px;}
+    .top-header-wrap {max-width:100%;padding:0 10px}
+    .logo-wrap img {margin-left:0px}
+    .modal-outer-wrap {max-width:100%;padding:0 10px;}
+    #home-page .hero-content h1{font-size:55px;}
+    #home-page.limitless-world-page .hero-content-wrap{padding:0 15px;}
+    .hero-content h1{font-size:44px;line-height:50px;}
+    .testimonial-section-wrap .common-wrap{padding:0 15px;}
+    .testimonial-section-wrap{padding:50px 0}
+    .logo-wrap {width:80px;margin-top:0px;margin-left:10px;}
+    .logo-wrap a img{float:left;margin:0;width:100%;}
+    .navigation-button {margin-right:25px;margin-top:28px;}
+    div.show {transform:translateY(90px);-webkit-transform:translateY(90px);}
+    #main-nav li a{font-size:25px;line-height:40px;}
+    .overlay-text{margin-left:0px;padding:0 15px;}
+    .overlay-text h1{font-size:30px;}
+    .overlay-text h3{font-size:20px;}
+    .limitless-page.testimonial-section-wrap{padding:50px 0 150px;}
+    .template-section .common-wrap{max-width:100%;margin:45px auto 10px;}
+    .emily-details{max-width:100%;padding:100px 15px 0 0;}  
+
+    .left-column{ padding-right: 30px }
+    .right-column{ padding-left: 0px; }  
+
+}
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio:2),
+	only screen and (min-device-pixel-ratio:2) {
+	
+	body {	
+	}	
+}
